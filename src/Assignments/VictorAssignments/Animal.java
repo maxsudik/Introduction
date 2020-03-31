@@ -1,10 +1,12 @@
 package Assignments.VictorAssignments;
 
 public class Animal {
+
+    static final String SOUND = "Boo";
+
     public void animalSoud(){
 
-        String animalSound = "Boo";
+        System.out.println(SOUND);
 
-        System.out.println(animalSound);
     }
 }
