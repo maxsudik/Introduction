@@ -1,7 +1,12 @@
 package Assignments.VictorAssignments;
 
 public class AnimalCage {
+        public void makeNoise(){
 
-        AnimalCage animal1 = new AnimalCage();
-        
+                Animal animal = new Animal();
+
+                animal.animalSoud();
+        }
+
+
 }
