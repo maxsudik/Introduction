@@ -1,12 +1,14 @@
 package Assignments.VictorAssignments;
 
 public class AnimalCage {
-        public void makeNoise(){
 
-                Animal animal = new Animal();
+    //This method is used to for animals to make noise
+    public void makeNoise() {
 
-                animal.animalSoud();
-        }
+        //This is an object of the aminal that makes sound
+        Animal wolf = new Animal();
 
-
+        //Wolf makes sound
+        wolf.animalSoud();
+    }
 }
