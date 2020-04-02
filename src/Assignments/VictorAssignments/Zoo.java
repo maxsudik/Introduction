@@ -2,13 +2,17 @@ package Assignments.VictorAssignments;
 
 public class Zoo {
 
+
     public static void main(String[] args) {
 
-        //Create an object of an animal from the cage
-        AnimalCage animalCage = new AnimalCage();
+        //How can we call this method without creating an object?
+        AnimalCage.makeNoise();
 
-        //The animal from the cage makes noise
-        animalCage.makeNoise();
+        //Don't understand what kind parameter should be here....
+        AnimalCage animalCage = new AnimalCage();
+        animalCage.createWildAnimal();
+
+
 
     }
 }
